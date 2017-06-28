@@ -1,0 +1,45 @@
+body {
+	padding: 0 10px;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: #9e42f4;
+	color: white; 
+}
+
+.panel-default .panel-heading {
+	background-color: #9e42f4;
+	color: white;
+}
+
+.panel-body {
+	width: 100%;
+}
+
+#train-entries {
+	width: auto;
+}
+
+td {
+	padding: 0px 10px 10px 0px;
+}
+
+th {
+	border-bottom: 1px solid lightgrey;
+	padding: 10px;
+}
+
+input {
+	width: 100%;
+}
+
+p {
+	font-weight: bold;
+}
+
+#submit {
+	width: auto;
+	background-color: #9e42f4;
+	color: white;
+}
