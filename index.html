@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<!-- Firebase reference -->
     <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+    <!-- Moment reference -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 </head>
 <body>
 	<div class="jumbotron">
@@ -39,6 +41,21 @@
 		</form>
 		</div>
 	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+	
+	<script>
+	//link to firebase to store our information in the cloud
+	var config = {
+	    apiKey: "AIzaSyCAAfKUXwlHvahVD_aofhSMY039Gfih5SM",
+	    authDomain: "ride-my-train.firebaseapp.com",
+	    databaseURL: "https://ride-my-train.firebaseio.com",
+	    projectId: "ride-my-train",
+	    storageBucket: "ride-my-train.appspot.com",
+	    messagingSenderId: "996533521208"
+	  };
+	  firebase.initializeApp(config);
+	</script>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="assets/javascript/app.js"></script>
