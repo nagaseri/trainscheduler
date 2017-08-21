@@ -1,6 +1,6 @@
-# Giftastic
+# Train Scheduler
 
-	A fun app allowing users to dynamically populate the page with gifs of their choice! 
+	An app with utility - add a train route and check the dynamically updated train schedule! 
 
 	Below are screenshots of the webpage: 
 	
